@@ -7,7 +7,7 @@ Es wurde ein einfaches Helm-Chart für eine Nginx-Anwendung erstellt, installier
 **Verzeichnisstruktur:**
     *  
         ```
-        DeinProjekt/
+        ai-chat-App/
         ├── README.md
         ├── assets/
         │   ├── screenshot
@@ -23,7 +23,7 @@ Es wurde ein einfaches Helm-Chart für eine Nginx-Anwendung erstellt, installier
         │   │       ├── values.yaml
         │   │       └── templates/
         │   │           └── ...
-        └── ... (andere Projektdateien)
+        └── ... (Kubernetes mit Yaml`s)
         ```
 
 
