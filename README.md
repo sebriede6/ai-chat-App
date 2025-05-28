@@ -108,7 +108,7 @@ kubectl get all -l app.kubernetes.io/instance=my-nginx-release
 Die folgenden Screenshots dokumentieren die erfolgreiche Durchführung der oben genannten Schritte.
 
 
-    ![Screenshots](assets/)
+    ![Screenshots](./assets/)
 
 
 ---
