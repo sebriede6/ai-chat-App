@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "my-first-hel-chart.fullname" . }}
+  labels:
+    {{- include "my-first-hel-chart.labels" . | nindent 4 }}
+spec:
+  type: NodePort
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "my-first-hel-chart.selectorLabels" . | nindent 4 }}
