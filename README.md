@@ -1,7 +1,8 @@
 ```markdown
 # AI Chat App - Helm Exercise
 
-Dieses Projekt demonstriert die grundlegenden Schritte zur Verwendung von Helm als Paketmanager für Kubernetes. Es wurde ein einfaches Helm-Chart für eine Nginx-Anwendung erstellt, installiert, aktualisiert und deinstalliert.
+Dieses Projekt demonstriert die grundlegenden Schritte zur Verwendung von Helm als Paketmanager für Kubernetes.
+Es wurde ein einfaches Helm-Chart für eine Nginx-Anwendung erstellt, installiert, aktualisiert und deinstalliert.
 
 **Verzeichnisstruktur:**
     *  
